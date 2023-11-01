@@ -1,0 +1,134 @@
+.Footer{
+    width: 100%;
+    height:fit-content;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: -100px;
+}
+.FooterContainer{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 75px 10px;
+}
+.copyrightSection{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.copyrightSection p{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: rgb(160, 160, 160);
+    font-weight: 400;
+    border-top: 1px solid rgb(196, 196, 196);
+    padding: 15px 0px;
+}
+.LinksContainer{
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.LinksContainer h1{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.LinksContainer a{
+    width: fit-content;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-size: 1.7rem;
+}
+.LinksContainer a:hover{
+    color: rgb(255, 111, 58);
+}
+.LinksContainer a svg{
+    fill: white;
+    height: 3rem;
+}
+.svgContainer{
+    display: flex;
+    gap: 25px;
+}
+.LinksContainer a svg:hover{
+    fill: rgb(255, 111, 58);
+}
+
+
+
+/* 
+###############################
+
+///////////your code//////////////
+
+###############################
+ */
+
+
+/* responsive code below*/
+@media screen and (max-width:1920px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+ 
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 45%;  
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    html {
+        font-size: 43%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    html {
+        font-size: 40%;
+    }
+}
+@media screen and (max-width:300px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+/* responsive code above */

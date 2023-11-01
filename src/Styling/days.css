@@ -1,0 +1,186 @@
+#rootAlign{
+width: 100%;
+height: auto; 
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+body{
+
+    padding: 0 100px;
+}
+.bgImgRight .align{
+    flex-direction: row-reverse;
+}
+.day1Card1{
+    background-image: url(../Images/Day1Imgs/Introduction.png);
+  }
+  .day1Card2{
+    background-image: url(../Images/Day1Imgs/bazaarWalk.png);
+  }
+  .day1Card3{
+    background-image: url(../Images/Day1Imgs/cottageIndustry.png);
+  }
+  .day1Card4{
+    background-image: url(../Images/Day1Imgs/streetFood.png);
+  }
+  .day1Card5{
+    background-image: url(../Images/Day1Imgs/spirituality.png);
+  }
+  .day1Card6{
+    background-image: url(../Images/Day1Imgs/heritageHotel.png);
+  }
+
+.day1Desc1{
+    background-image: url(../Images/Day1Imgs/introDesc.png);
+}
+.day1Desc2{
+    background-image: url(../Images/Day1Imgs/bazaarWalkDesc.png);
+}
+.day1Desc3{
+    background-image: url(../Images/Day1Imgs/cottageIndustryDesc.png);
+}
+.day1Desc4{
+    background-image: url(../Images/Day1Imgs/streetFoodDesc.png);
+}
+
+.day1Desc5{
+    background-image: url(../Images/Day1Imgs/spiritualityDesc.png);
+}
+
+.day1Desc6{
+    background-image: url(../Images/Day1Imgs/heritageStayDesc.png);
+}
+
+
+/* ****************************************DAY 2 BEGINS******************************************** */
+
+.day2Card1{
+  background-image: url(../Images/Day2Imgs/amberFort.png);
+}
+.day2Card2{
+  background-image: url(../Images/Day2Imgs/jantarMantar.png);
+}
+.day2Card3{
+  background-image: url(../Images/Day2Imgs/albertHall.png);
+}
+.day2Card4{
+  background-image: url(../Images/Day2Imgs/rest.png);
+}
+.day2Card5{
+  background-image: url(../Images/Day2Imgs/jaipurAtNight.png);
+}
+.day2Card6{
+  background-image: url(../Images/Day2Imgs/homeStay.png);
+}
+
+.day2Desc1{
+  background-image: url(../Images/Day2Imgs/amberFortDesc.png);
+}
+.day2Desc2{
+  background-image: url(../Images/Day2Imgs/jantarMantarDesc.png);
+}
+.day2Desc3{
+  background-image: url(../Images/Day2Imgs/albertHallDesc.png);
+}
+.day2Desc4{
+  background-image: url(../Images/Day2Imgs/restDesc.png);
+}
+
+.day2Desc5{
+  background-image: url(../Images/Day2Imgs/jaipurAtNightDesc.png);
+}
+
+.day2Desc6{
+  background-image: url(../Images/Day2Imgs/homeStayDesc.png);
+}
+/* ****************************************DAY 3 BEGINS******************************************** */
+.day3Heading1{
+  background-image: url(../Images/day3ShoppingExtravagenza.png);
+}
+.day3Card1{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/gems&jewelerry.png);
+}
+.day3Card2{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/miniaturePaintings.png);
+}
+.day3Card3{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/rugs$carpet.png);
+}
+.day3Card4{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/blockPrinting.png);
+}
+.day3Card5{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/marbleSculptures.png);
+}
+.day3Card6{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/spices.png);
+}
+.day3Card7{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/wooden&metalArtifacts.png);
+}
+
+.day3Desc1{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/Gems&JewelleryDesc.png);
+}
+.day3Desc2{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/MiniaturePaintingsDesc.png);
+}
+.day3Desc3{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/ruhs&CarpetDesc.png);
+}
+.day3Desc4{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/BlockPrintingDesc.png);
+}
+
+.day3Desc5{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/marbleScyuptureDesc.png);
+}
+
+.day3Desc6{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/spicesDesc.png);
+}
+.day3Desc7{
+  background-image: url(../Images/Day3Imgs/Day3Shopping/woden&metaArtifactsDesc.png);
+}
+
+
+/* *******************************************COUNTRYSIDE EXPLORATION******************************************* */
+
+.day3Heading2{
+  background-image: url(../Images/day3CountrySideExploration.png);
+}
+.day3CardB1{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/countrySide.png);
+}
+.day3CardB2{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/Elephant\ Village.png);
+}
+.day3CardB3{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/leopardSafari.png);
+}
+.day3CardB4{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/hikeToGaltaji.png);
+}
+.day3CardB5{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/luxuryStay.png);
+}
+
+
+.day3DescB1{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/countrySideDesc.png);
+}
+.day3DescB2{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/elephantVillageDesc.png);
+}
+.day3DescB3{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/leopardSafariDesc.png);
+}
+.day3DescB4{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/hikeToGaltajiDesc.png);
+}
+
+.day3DescB5{
+  background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/luxuryStayDesc.png);
+}
+

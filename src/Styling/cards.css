@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.dayDescription{
+  margin: 50px 150px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 10.5%;
+  font-size: 2.3rem;
+  font-weight: 300;
+  text-align: center;
+  /* margin-bottom: 200px; */
+}
+.dayHeading{
+  width: 90%;
+  min-height: 10vh;
+  height: auto;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 100px 0px ;
+  /* background-color: red; */
+}
+.daysContainer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px 50px 100px 50px;
+
+    border-radius: 10px;
+
+  }
+  .daysContainer .align{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  .bgImgRight{
+    background-position: center right;
+
+  }
+  .bgImgLeft{
+    background-position: center left;
+  }
+  .bgImg1{
+    background-image: url(../Images/cardsBgDesign/bg1.png);
+  }
+  .bgImg2{
+    background-image: url(../Images/cardsBgDesign/bg2.png);
+  }
+  .bgImg3{
+    background-image: url(../Images/cardsBgDesign/bg3.png);
+  }
+  .bgImg4{
+    background-image: url(../Images/cardsBgDesign/bg4.png);
+  }
+  .bgImg5{
+    background-image: url(../Images/cardsBgDesign/bg5.png);
+  }
+  .bgImg6{
+    background-image: url(../Images/cardsBgDesign/bg6.png);
+  }
+  .bgImg7{
+    background-image: url(../Images/cardsBgDesign/bg7.png);
+  }
+
+
+
+.dayCard{
+    width: 40%;
+    height: 90%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-5.33deg);
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+  }
+
+  .bgImgRight .dayCard{
+    transform: rotate(-5.33deg);
+  }
+  .bgImgLeft .dayCard{
+    transform: rotate(5.33deg);
+  }
+  .dayCard:hover{
+    transform: rotate(0) scale(1.1);
+  }
+  .dayCard1{
+    background-image: url(../Images/homeCards/dayCard1.png);
+  }
+  .dayCard2{
+    background-image: url(../Images/homeCards/dayCard2.png);
+  }
+  .dayCard3{
+    background-image: url(../Images/homeCards/dayCard3.png);
+  }
+  .dayDesc{
+    width: 40%;
+    height: 90%;
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .1s;
+    cursor: pointer;
+  }
+  .dayDesc:hover{
+    transform:  scale(1.01);
+  }
+    .dayDesc1{
+        background-image: url(../Images/homeCards/dayDesc1.png);
+    }
+    .dayDesc2{
+        background-image: url(../Images/homeCards/dayDesc2.png);
+    }
+    .dayDesc3{
+        background-image: url(../Images/homeCards/dayDesc3.png);
+    }
+
+
+    .ViewMoreButton{
+      height: 45px;
+      padding: 8px 20px;
+      border: none;
+      background-color: transparent;
+      /* color: white; */
+      cursor: pointer;
+      text-transform: capitaliize;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      border: 1px solid rgb(39, 39, 39);
+      transition: all .2s;
+  
+}
+.ViewMoreButton svg{
+  fill: black;
+  height: 10  0%;
+  transition: all .5s;
+}
+
+.ViewMoreButton:hover{
+  background-color: rgb(253, 253, 253);
+  border: 2px solid black;
+  color: black;
+  scale: 1.05;
+}
+.ViewMoreButton:hover svg{
+  fill: black ;
+}
