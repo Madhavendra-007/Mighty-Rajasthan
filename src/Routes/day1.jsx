@@ -5,9 +5,14 @@ import '../Styling/days.css';
 
 export default function Day1() {
     return (<>
+    <div id="rootAlign">
 <div className='dayDescription'>
     Celebrate Day 1 by immersing yourself in the vibrant tapestry of Jaipur's rich cultural heritage. Begin your journey with an insightful introduction to the Pink City, delving into its architectural marvels, cultural significance, and fascinating history. Explore the bustling markets during a Bazar Walk, where traditional crafts, intricate jewelry, and vibrant clothing await discovery. Uncover the age-old cottage industries during Cottage Economy Exploration, witnessing the dedication and skill behind block printing and pottery. Indulge your taste buds with Rajasthani street food during Street Food Delights, a flavorful journey through the region's culinary identity. Conclude the day with a spiritual and enlightening experience during the Spirituality and Religion Tour, visiting iconic temples and gaining insights into Jaipur's diverse spiritual fabric.
     </div>
+
+
+    <div className="dayHeading day1Heading"></div>
+
 
     <div className="daysContainer bgImgRight bgImg1">
       <div className='align'>
@@ -53,7 +58,7 @@ export default function Day1() {
       <div className="dayCard day1Card6"></div>
       </div>
     </div>
-
+    </div>
 
     </> );
 };

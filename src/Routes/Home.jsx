@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <>
+    <div id="rootAlign">
+
     <Slider />
     <div className='AboutJaipur'>
       <h1>Know about Jaipur</h1>
@@ -87,6 +89,7 @@ export default function Home() {
           </div>
       </div>
     </div> */}
+    </div>
 </>
   )
 }

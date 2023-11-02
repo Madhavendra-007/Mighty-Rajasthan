@@ -5,6 +5,7 @@ import '../Styling/days.css';
 
 export default function Day3() {
     return (<>
+    
     <div id="rootAlign">
 <div className='dayDescription'>
 Day 3 offers a personalized journey, merging the opulence of our Shopping Extravaganza with the rustic charm of Countryside Exploration. Revel in the allure of gems, jewelry, Miniature Paintings, Carpets, Textiles, Spices, Marble Sculptures, Wooden and Metal Artifacts, and the unique artistry of Block Printed Textiles. Embrace the tranquility of the countryside, visit the Elephant Village, experience a Leopard Safari, explore Galta Ji on a spiritual hike, and conclude with a luxurious retreat. Customize your adventure by reaching out via email or WhatsApp, allowing your day in Jaipur to be as unique as you are.

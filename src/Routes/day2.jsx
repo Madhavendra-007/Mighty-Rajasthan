@@ -5,9 +5,14 @@ import '../Styling/days.css';
 
 export default function Day2() {
     return (<>
+    <div id="rootAlign">
+    
 <div className='dayDescription'>
 Day 2 offers an immersive journey through Jaipur's majestic heritage and enchanting nightscape. Begin by exploring the grandeur of the Amber Fort, witnessing its stunning architecture and historical significance. Experience the precision of ancient astronomy at Jantar Mantar, and delve into diverse artifacts at the cultural repository of Albert Hall. After a luxurious interlude, witness the mesmerizing charm of Jaipur at night, where the city comes alive under the moon's glow. Complete your day with a homely stay, offering authentic cultural experiences and home-cooked delicacies, inviting you to live and breathe the essence of India.
     </div>
+
+    <div className="dayHeading day2Heading"></div>
+
 
     <div className="daysContainer bgImgRight bgImg1">
       <div className='align'>
@@ -54,6 +59,6 @@ Day 2 offers an immersive journey through Jaipur's majestic heritage and enchant
       </div>
     </div>
 
-
+</div>
     </> );
 };

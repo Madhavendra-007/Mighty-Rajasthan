@@ -1,16 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 #rootAlign{
 width: 100%;
 height: auto; 
 display: flex;
 flex-direction: column;
 align-items: center;
+padding: 0 100px;
 }
-body{
 
-    padding: 0 100px;
-}
 .bgImgRight .align{
     flex-direction: row-reverse;
+}
+.day1Heading{
+  background-image: url(../Images/day1DiscoveringJaipursEssence.png);
 }
 .day1Card1{
     background-image: url(../Images/Day1Imgs/Introduction.png);
@@ -54,7 +61,9 @@ body{
 
 
 /* ****************************************DAY 2 BEGINS******************************************** */
-
+.day2Heading{
+  background-image: url(../Images/day2HeritageAndNighttimeWonders.png);
+}
 .day2Card1{
   background-image: url(../Images/Day2Imgs/amberFort.png);
 }
@@ -134,7 +143,7 @@ body{
 }
 
 .day3Desc5{
-  background-image: url(../Images/Day3Imgs/Day3Shopping/marbleScyuptureDesc.png);
+  background-image: url(../Images/Day3Imgs/Day3Shopping/marbleSculptureDesc.png);
 }
 
 .day3Desc6{
