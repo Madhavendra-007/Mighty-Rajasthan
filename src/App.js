@@ -21,7 +21,7 @@ function App() {
         <ScrollToTop /> {/* This component will handle scrolling to the top */}
         <Navbar /> {/* Navbar */}
         <Routes>
-          <Route path="/Mighty-Rajasthan/Home" element={<Home />} />
+          <Route path="/Mighty-Rajasthan" element={<Home />} />
           <Route path="/Mighty-Rajasthan/About" element={<About />} />
           <Route path="/Mighty-Rajasthan/Contact" element={<Contact />} />
           <Route path="/Mighty-Rajasthan/day1" element={<Day1 />} />
