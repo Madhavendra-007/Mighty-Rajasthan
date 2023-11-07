@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Styling/cards.css';
 import '../Styling/days.css';
+import ContactForm from '../Components/contactForm';
+
 
 
 export default function Day1() {
@@ -58,7 +60,9 @@ export default function Day1() {
       <div className="dayCard day1Card6"></div>
       </div>
     </div>
+
     </div>
+<ContactForm/>
 
     </> );
 };

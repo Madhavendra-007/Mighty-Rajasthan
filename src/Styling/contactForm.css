@@ -1,0 +1,147 @@
+.rootAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    gap: 100px;
+}
+.contactFormHeading{
+    background-image: url(../Images/contactDetails.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 45px;
+}
+.contactForm{
+    width: 30%;
+    height: 38vh;
+    border: 3px solid black;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.contactFormRow{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contactForm form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactForm label{
+    font-size: 2.3rem;
+    width: 80px;
+}
+
+.react-tel-input{
+    width: 400px;
+
+}
+.contactForm input{
+    width: 400px;
+    height: 35px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #cbcbcb;
+    border: none;
+    background-color: #F2F2F2; 
+    font-size: 1.8rem;
+    border-bottom: 2px solid black;
+}
+.react-tel-input .form-control {
+    border-bottom: 2px solid black; 
+    background-color: #F2F2F2; 
+    font-size: 1.8rem;
+    width: 100%;
+
+}
+.react-tel-input .flag-dropdown {
+    border-bottom: 2px solid black; 
+
+    background-color: F2F2F2; 
+}
+.contactFormSubmitRow{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+#submit{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    font-size: 1.7rem;
+}
+#submit:hover{
+   scale: 1.05;
+}
+.submitDesc{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+/* ********************************************************GET IN TOUCH***************************************************** */
+.getInTouch{
+    width: 30%;
+    height: 15vh;
+    border: 3px solid black;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.getInTouchHeading{
+background-image: url(../Images/getInTouch.png);
+
+}
+.socialsAlign{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.socials{
+    height: 40px;
+    width: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(0.04);
+
+}
+.socials:hover{
+    filter: invert(0);
+    scale: 1.015;
+    cursor: pointer;
+
+}
+.socials1{
+    background-image: url(../Images/socials.whatsapp.png);
+}
+.socials2{
+    background-image: url(../Images/socials.mail.png);
+}

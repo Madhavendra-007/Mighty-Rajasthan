@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styling/cards.css';
 import '../Styling/days.css';
+import ContactForm from '../Components/contactForm';
 
 
 export default function Day3() {
@@ -108,5 +109,7 @@ Day 3 offers a personalized journey, merging the opulence of our Shopping Extrav
     </div>
 
     </div>
+<ContactForm/>
+
     </> );
 };

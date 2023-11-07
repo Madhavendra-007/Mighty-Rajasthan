@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styling/cards.css';
 import Slider from '../Components/Slider';
 import TopMonuments from '../Components/TopMonuments';
+import ContactForm from '../Components/contactForm';
 import { Link } from 'react-router-dom';
 // import Day1 from '../Images/day1.png'
 // import Day2 from '../Images/day2.png'
@@ -10,7 +11,6 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <>
-    <div id="rootAlign">
 
     <Slider />
     <div className='AboutJaipur'>
@@ -20,6 +20,7 @@ export default function Home() {
     </div>
 
 
+    <div id="rootAlign">
 
 
     <div className="daysContainer bgImgRight bgImg1">
@@ -68,12 +69,14 @@ export default function Home() {
     </Link>
     </div>
 
+    
 
 
 
 
+</div>
     <TopMonuments/>
-
+<ContactForm/>
     {/* <div className="ActivityContainer">
       <h1 className='sectionHeadings'>Activity</h1>
 
@@ -89,7 +92,6 @@ export default function Home() {
           </div>
       </div>
     </div> */}
-    </div>
 </>
   )
 }

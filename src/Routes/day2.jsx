@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styling/cards.css';
 import '../Styling/days.css';
+import ContactForm from '../Components/contactForm';
 
 
 export default function Day2() {
@@ -60,5 +61,7 @@ Day 2 offers an immersive journey through Jaipur's majestic heritage and enchant
     </div>
 
 </div>
+<ContactForm/>
+
     </> );
 };

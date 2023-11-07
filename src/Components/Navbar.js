@@ -45,17 +45,17 @@ export default function Navbar() {
         </label>
         <ul className={checked ? "TabsContainer TabsContainerisActive" : "TabsContainer"} ref={menuRef}>
           <li className="tabs">
-            <NavLink className="tabs-link" to="/Mighty-Rajasthan/" aria-label="Home">
+            <NavLink className="tabs-link" to="/" aria-label="Home">
               Home
             </NavLink>
           </li>
           <li className="tabs">
-            <NavLink className="tabs-link" to="/Mighty-Rajasthan/About" aria-label="About Us">
+            <NavLink className="tabs-link" to="/About" aria-label="About Us">
               About Us
             </NavLink>
           </li>
           <li className="tabs">
-            <NavLink className="tabs-link" to="/Mighty-Rajasthan/Contact" aria-label="Contact Us">
+            <NavLink className="tabs-link" to="/Contact" aria-label="Contact Us">
               Contact Us
             </NavLink>
           </li>
