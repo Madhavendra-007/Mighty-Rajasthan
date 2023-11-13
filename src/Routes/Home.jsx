@@ -1,18 +1,20 @@
 import React from 'react';
 import '../Styling/cards.css';
-import Slider from '../Components/Slider';
+// import Slider from '../Components/Slider';
 import TopMonuments from '../Components/TopMonuments';
 import ContactForm from '../Components/contactForm';
 import { Link } from 'react-router-dom';
-// import Day1 from '../Images/day1.png'
-// import Day2 from '../Images/day2.png'
-// import Day3 from '../Images/day3.png'
+import VideoPlayer from '../Components/videoPlayer';
+
+
+
 
 export default function Home() {
   return (
     <>
+    <VideoPlayer />
 
-    <Slider />
+    {/* <Slider /> */}
     <div className='AboutJaipur'>
       <h1>Know about Jaipur</h1>
       <p>Jaipur, known as the "Pink City," is a captivating blend of rich history, vibrant culture, and architectural marvels nestled in the heart of Rajasthan, India. Its iconic pink-hued buildings, adorned with intricate designs, evoke a sense of timeless elegance. The city's imposing forts, notably Amber Fort and Nahargarh Fort, stand as silent witnesses to its royal past, offering panoramic views of the landscape. Jaipur's bustling bazaars, like Johari Bazaar and Bapu Bazaar, beckon with a kaleidoscope of textiles, jewelry, and crafts. The City Palace exudes opulence with its fusion of Rajput, Mughal, and European architectural styles. Jaipur's festivals, like Diwali and Teej, burst with color, music, and traditions, truly embodying the essence of Rajasthan. <br /> <br />
