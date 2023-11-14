@@ -29,7 +29,7 @@ function App() {
 
     // Promise that resolves after a minimum of 5 seconds
     const minimumLoadingTime = new Promise((resolve) => {
-      setTimeout(resolve, 5);
+      setTimeout(resolve, 5000);
     });
 
     // Wait for all resources and the minimum loading time to complete
