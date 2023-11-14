@@ -53,11 +53,11 @@ const VideoPlayer = () => {
         };
 
         // Example usage: Heading stays visible from 5 to 10 seconds
-        // addHeading(10, 15.5, 'CAPTIVATING JAIPUR', 'WHERE EVERY STREET TELLS A ROYAL TALE');
-        // addHeading(22, 28.25, 'Colors, Culture, and Cuisine', 'Your Unforgettable Jaipur Getaway Awaits!');
-        // addHeading(38.5, 44, "heart of nature's gallery", 'wildlife and heritage share a silent dialogue through time.');
-        addHeading(0, 60, "heart of nature's gallery", 'wildlife and heritage share a silent dialogue through time.');
-        // addHeading(52, 59, "In aisles of culture", 'shopping for humility,  discover treasures of heritage');
+        addHeading(10, 15.5, 'CAPTIVATING JAIPUR', 'WHERE EVERY STREET TELLS A ROYAL TALE');
+        addHeading(22, 28.25, 'Colors, Culture, and Cuisine', 'Your Unforgettable Jaipur Getaway Awaits!');
+        addHeading(38.5, 44, "heart of nature's gallery", 'wildlife and heritage share a silent dialogue through time.');
+        addHeading(52, 59, "In aisles of culture", 'shopping for humility,  discover treasures of heritage');
+
         
 
         // Log the current playback time every second
