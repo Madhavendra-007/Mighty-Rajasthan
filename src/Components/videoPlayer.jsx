@@ -58,12 +58,9 @@ const VideoPlayer = () => {
         addHeading(38.5, 44, "heart of nature's gallery", 'wildlife and heritage share a silent dialogue through time.');
         addHeading(52, 59, "In aisles of culture", 'shopping for humility,  discover treasures of heritage');
 
-        
+      
 
-        // Log the current playback time every second
-        setInterval(() => {
-            console.log('Current Time:', video.currentTime);
-        }, 1000);
+
         
         // Cleanup event listeners when the component unmounts
         return () => {
