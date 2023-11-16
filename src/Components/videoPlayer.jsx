@@ -38,7 +38,7 @@ const VideoPlayer = () => {
                     heading.style.flexDirection='column';
                     heading.style.textShadow = '2px 2px 4px #000000';
                     heading.style.width='100%';
-                    heading.style.opacity='0.5';
+                    heading.style.opacity='0.6';
                     heading.style.textTransform='uppercase';
                     heading.firstChild.style.fontSize='8rem';
                     heading.firstChild.style.marginBottom='0.5rem';
@@ -55,7 +55,7 @@ const VideoPlayer = () => {
         // Example usage: Heading stays visible from 5 to 10 seconds
         addHeading(10, 15.5, 'CAPTIVATING JAIPUR', 'WHERE EVERY STREET TELLS A ROYAL TALE');
         addHeading(22, 28.25, 'Colors, Culture, and Cuisine', 'Your Unforgettable Jaipur Getaway Awaits!');
-        addHeading(38.5, 44, "heart of nature's gallery", 'wildlife and heritage share a silent dialogue through time.');
+        addHeading(38.5, 44, "nature's gallery", 'wildlife and heritage share a silent dialogue through time.');
         addHeading(52, 59, "In aisles of culture", 'shopping for humility,  discover treasures of heritage');
 
       
@@ -70,7 +70,7 @@ const VideoPlayer = () => {
 
     return (
         <div style={{ position: 'relative' }}>
-            <video id="myVideo" src={videoBg} type="video/webm" autoPlay loop muted={muted} 
+            <video id="myVideo" src={videoBg} type="video/webm" controls autoPlay loop muted={muted} 
             style={{
                 display:'flex',
                 justifyContent: 'center',

@@ -194,3 +194,115 @@ margin-bottom: 150px;
   background-image: url(../Images/Day3Imgs/Day3CountrysideExploration/luxuryStayDesc.png);
 }
 
+/* ****************************Responsive code below***************************** */
+
+@media screen and (max-width:1600px) {
+  .daysContainer{
+    margin: 0px 0px 100px 0px;
+  }
+  .dayDescription{
+      margin: 50px 10px;
+  }
+  .dayHeading{
+    margin: 0px 0px;
+  }
+  }
+
+@media screen and (max-width:1000px) {
+
+  .daysContainer{
+    height: 120vh;
+    margin: 50px 10px 100px 10px;
+    
+  }
+  .daysContainer .align{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .dayCard {
+    height: 60%;
+    width: 70%;
+  }
+  .dayDesc{
+    height: 40%;
+   width: 60%;
+  }
+
+  }
+  @media screen and (max-width:800px) {
+    .dayDescription{
+      text-align: justify;
+     }
+    .daysContainer{
+      height: 90vw;
+      margin: 50px 10px 100px 10px;
+      align-items: center;
+    }
+    .bgImgRight .dayCard{
+     transform: rotate(0deg); 
+    }
+    .bgImgLeft .dayCard{
+     transform: rotate(0deg); 
+    }
+    .dayCard {
+      height: 60%;
+      width: 90%;
+    }
+    .dayDesc{
+      height: 40%;
+     width: 70%;
+    }
+    .ViewMoreButton{
+      height: auto;
+      padding: 12px 15px;
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+
+    .daysContainer{
+      height: 100vw;
+    }
+
+    .dayCard {
+      height: 60%;
+      width: 95%;
+    }
+    .dayDesc{
+      height: 40%;
+     width: 80%;
+    }
+    
+  }
+  @media screen and (max-width:585px) {
+    #rootAlign{
+      padding: 0 15px;
+    }
+    .daysContainer{
+      height: 140vw;
+      margin: 0px 10px 100px 10px;
+      background-size: cover;
+    }
+    .dayHeading{
+     width: 100%;
+    }
+    
+    .dayCard {
+      height: 50%;
+      width: 100%;
+    }
+    .dayDesc{
+      height: 40%;
+     width: 100%;
+
+    } 
+    .ViewMoreButton{
+      height: auto;
+      padding: 8px 12px;
+      /* font-size: 1.3rem; */
+    }
+    
+  }

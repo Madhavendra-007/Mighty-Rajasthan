@@ -1,12 +1,12 @@
 import React from 'react'
 import '../Styling/About.css'
-import MomentousLogo from '../Images/momentous holidays logo.png'
+import MomentousLogo from '../Images/momentousLogo.png'
 export default function About() {
   return (
     <div className='AboutMainContainer'>
-      <div className="AboutlogoContainer">
+      {/* <div className="AboutlogoContainer">
         <img src={MomentousLogo} alt="" />
-      </div>
+      </div> */}
       <h1 className='AboutUsHeading sectionHeadings'>About Us</h1>
       <p className="AboutPara">Welcome to Momentous Holidays! Embark on a captivating journey to the heart of Rajasthan, where valorous history, opulent palaces, and kaleidoscopic traditions await. We take immense pride in being your companions as you traverse the sands of time, discovering the hidden gems of this land of royalty. Our story began with a fervent desire to share the magic of Rajasthan's tourism with the world, and as we tread on this path, our horizons are set on encompassing the entire tapestry of India's beauty.At Momentous Holidays, we don't just offer tours; we craft immersive experiences that linger in your memory for a lifetime. Our team of passionate travel enthusiasts and local experts work tirelessly to curate itineraries that delve deep into the essence of each destination. From the bustling bazaars of Jaipur to the tranquil lakes of Udaipur, every moment is a celebration of India's diversity.<br /> <br /> <br />As we evolve, our vision extends beyond Rajasthan's borders. We aspire to be at the forefront of redefining travel across the Indian subcontinent. Our commitment to sustainable and responsible tourism drives us to create meaningful connections between travelers and the communities they visit. With Momentous Holidays, you're not just a spectator; you're a participant in a journey that supports local livelihoods and preserves India's natural and cultural heritage.Join us as we script stories of exploration, weave bonds with diverse cultures, and paint memories with the vibrant colors of India. Whether you're a history aficionado, a culinary explorer, a nature lover, or a seeker of spiritual enlightenment, there's a momentous adventure that awaits you. Your voyage of a thousand miles begins with a single click — let Momentous Holidays be your compass to navigating the extraordinary tapestry of India.
       <br /><br /><br />

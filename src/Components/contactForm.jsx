@@ -17,12 +17,12 @@ export default function ContactForm() {
               <div className="contactFormHeading"> </div>
            
             <div className="contactFormRow">
-              <label htmlFor="name">Name :</label>
+              <label htmlFor="name">Name:</label>
               <input type="text" name="name" required />
             </div>
   
             <div className="contactFormRow">
-              <label htmlFor="phone">Mobile :</label>
+              <label htmlFor="phone">Mob.:</label>
               <PhoneInput
                 country={'us'}
                 value={phone}
@@ -33,7 +33,7 @@ export default function ContactForm() {
             </div>
   
             <div className="contactFormRow">
-              <label htmlFor="email">E-mail :</label>
+              <label htmlFor="email">Email:</label>
               <input type="email" name="email" required />
             </div>
             <div className="contactFormSubmitRow">
@@ -45,8 +45,15 @@ export default function ContactForm() {
           <div className="getInTouch">
             <div className="contactFormHeading getInTouchHeading"></div>
             <div className="socialsAlign">
-              <div className="socials socials1"></div>
-              <div className="socials socials2"></div>
+                      {/* Social 1 */}
+                <a href="https://wa.me/9314643795?text=I%27m%20interested%20in%20Mighty-Rajasthan%20tour%20package" target="_blank" rel="noopener noreferrer">
+                  <div className="socials socials1"></div>
+                </a>
+
+                {/* Social 2 */}
+                <a href="mailto:rajasthan.mighty@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <div className="socials socials2"></div>
+                </a>
             </div>
           </div>
           </div>

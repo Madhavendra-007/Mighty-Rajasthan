@@ -171,3 +171,9 @@
 .ViewMoreButton:hover svg{
   fill: black ;
 }
+.dayCard:hover + .dayDesc {
+    background-color: red; /* or any other visual change */  
+}
+
+
+

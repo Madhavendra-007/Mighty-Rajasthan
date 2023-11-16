@@ -1,10 +1,13 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 // import image1 from '../Images/Asset7@4x.png';
-import image2 from '../Images/Asset6@4x.png';
+import image2 from '../Images/rajasthanLogo.png';
 // import image3 from '../Images/Asset5@4x.png';
 
 export default function Navbar() {
+  const logoClick = () => {
+    window.location.href = '/';
+  }
   const [checked, setChecked] = useState(false);
   let menuRef = useRef();
   let hamburgerRef = useRef();
@@ -30,11 +33,18 @@ export default function Navbar() {
     setChecked(false);
   }, [location]);
 
+ 
   return (
     <div className="navbarContainer">
       <div className="navbar">
         <div className="logo">
-          <img src={image2} alt="" className='logoImg' aria-labelledby="Mighty Rajasthan Company Logo"/>
+      
+
+          <img src={image2} alt="" className='logoImg' aria-labelledby="Mighty Rajasthan Company Logo" 
+          onClick={logoClick}
+          style={{cursor: 'pointer'}}
+          />
+          
         </div>
         <label className="hamburger" ref={hamburgerRef}>
           <input type="checkbox" checked={checked} onChange={(e) => setChecked(e.target.checked)} />
