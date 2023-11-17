@@ -69,6 +69,11 @@ export default function Navbar() {
               Contact Us
             </NavLink>
           </li>
+          <li className="tabs">
+            <NavLink className="tabs-link" to="/FAQs" aria-label="FAQs">
+              FAQs
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>

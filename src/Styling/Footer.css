@@ -12,8 +12,9 @@
     height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 50px 10px;
+    justify-content: center;
+    /* justify-content: space-evenly;*/
 }
 
 .copyrightSection{
@@ -37,9 +38,10 @@
 }
 .LinksContainer{
     width: 25%;
-    height: 150px;
+    height: auto;
     display: flex;
     flex-direction: column;
+    padding: 7px 15px;
     gap: 8px;
 }
 .footerLogos{
@@ -51,7 +53,12 @@
     background-image: url(../Images/momentousLogo.png);
     background-size: 45%;   
     background-repeat: no-repeat;
-    background-position:  center left;
+    background-position: 10% center ;
+    transition: all 0.2s ease-in-out;
+}
+.footerLogos:hover{
+    background-size: 50%;
+    cursor: pointer;
 }
 /* .footerLogoMomentous,.footerLogoMightyRajasthan{
 
@@ -70,16 +77,19 @@ background-image: url(../Images/rajasthanLogo.png);
 background-size:auto 80%;
 } */
 .LinksContainer h1{
+    letter-spacing: 1px;
     color: white;
-    font-size: 2.4rem;
-    font-weight: 400;
-    margin-bottom: 16px;
+    font-size: 19px;
+    font-weight: 500;
+        text-align: left;
+        margin:14px 0px 20px;
 }
 .LinksContainer a{
+    letter-spacing: 1px;
     width: fit-content;
     text-decoration: none;
     color: rgb(160, 160, 160);
-    font-size: 1.7rem;
+    font-size: 15px;
 }
 .LinksContainer a:hover{
     color: rgb(255, 111, 58);
@@ -118,14 +128,24 @@ background-size:auto 80%;
     html {
         font-size: 60%;
     }
+  
+
+ 
 }
 
-@media screen and (max-width:998px) {
+@media screen and (max-width:1000px) {
     html {
         font-size: 55%;
     }
-}
+  .FooterContainer{
+        flex-wrap: wrap;
+        padding: 0px 0 10px;
+    }
+         .footerLogos,.LinksContainer{
+        width: 50%;
+    }
 
+}
 @media screen and (max-width:768px) {
     html {
         font-size: 50%;
@@ -133,6 +153,17 @@ background-size:auto 80%;
  
 }
 
+@media screen and (max-width:600px) {
+ 
+    .footerLogos,.LinksContainer{
+        width: 100%;
+    }
+    .footerLogos{
+        background-position: center;
+        height: 30vw;
+        margin-top: 10px;
+    }
+}
 @media screen and (max-width:500px) {
     html {
         font-size: 45%;  

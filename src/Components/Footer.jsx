@@ -1,15 +1,19 @@
 import React from 'react'
 
 export default function Footer() {
+  const footerLogoClick = () => {
+    window.open("/About", "_blank");
+  };
   return (
     <footer className='Footer'>
         <div className='FooterContainer'>
-          <div className="LinksContainer footerLogos">
-            <div className="footerLogoMomentous"></div>
-            {/* <div className="footerLogoMightyRajasthan"></div> */}
+          <div className="LinksContainer footerLogos"
+          onClick={footerLogoClick}>
+            {/* <div className="footerLogoMomentous"></div>
+            <div className="footerLogoMightyRajasthan"></div> */}
           </div>
           <div className="LinksContainer">
-            <h1>Navigation</h1>
+            <h1>General</h1>
             <a href="/" className="FooterLinks">Home</a>
             <a href="/Contact" className="FooterLinks">Contact Us</a>
             <a href="/About" className="FooterLinks">About Us</a>

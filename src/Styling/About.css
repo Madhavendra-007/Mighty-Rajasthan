@@ -69,6 +69,9 @@
     html {
         font-size: 60%;
     }
+    .AboutPara{
+        text-align: justify;
+      }
 }
 
 @media screen and (max-width:998px) {
@@ -81,7 +84,10 @@
     html {
         font-size: 50%;
     }
- 
+    .AboutPara{
+
+        padding: 0 7% 200px 7%;
+      }
 }
 
 @media screen and (max-width:500px) {
@@ -95,6 +101,9 @@
     html {
         font-size: 43%;
     }
+    .AboutPara{
+        line-height: 2;
+      }
 }
 
 @media screen and (max-width:375px) {
