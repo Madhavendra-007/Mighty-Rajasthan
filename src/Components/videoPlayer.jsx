@@ -92,7 +92,6 @@ const VideoPlayer = () => {
         id="myVideo"
         src={isSmallScreen ? videoBgSmall : videoBg}
         type="video/webm"
-        controls
         autoPlay
         loop
         muted={muted}

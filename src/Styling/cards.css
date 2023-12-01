@@ -61,25 +61,25 @@
     background-position: center left;
   }
   .bgImg1{
-    background-image: url(../Images/cardsBgDesign/bg1.png);
+    background-image: url(../Images/cardsBgDesign/bg1.webp);
   }
   .bgImg2{
-    background-image: url(../Images/cardsBgDesign/bg2.png);
+    background-image: url(../Images/cardsBgDesign/bg2.webp);
   }
   .bgImg3{
-    background-image: url(../Images/cardsBgDesign/bg3.png);
+    background-image: url(../Images/cardsBgDesign/bg3.webp);
   }
   .bgImg4{
-    background-image: url(../Images/cardsBgDesign/bg4.png);
+    background-image: url(../Images/cardsBgDesign/bg4.webp);
   }
   .bgImg5{
-    background-image: url(../Images/cardsBgDesign/bg5.png);
+    background-image: url(../Images/cardsBgDesign/bg5.webp);
   }
   .bgImg6{
-    background-image: url(../Images/cardsBgDesign/bg6.png);
+    background-image: url(../Images/cardsBgDesign/bg6.webp);
   }
   .bgImg7{
-    background-image: url(../Images/cardsBgDesign/bg7.png);
+    background-image: url(../Images/cardsBgDesign/bg7.webp);
   }
 
 
@@ -108,13 +108,13 @@
     transform: rotate(0) scale(1.1);
   }
   .dayCard1{
-    background-image: url(../Images/homeCards/dayCard1.png);
+    background-image: url(../Images/homeCards/dayCard1.webp);
   }
   .dayCard2{
-    background-image: url(../Images/homeCards/dayCard2.png);
+    background-image: url(../Images/homeCards/dayCard2.webp);
   }
   .dayCard3{
-    background-image: url(../Images/homeCards/dayCard3.png);
+    background-image: url(../Images/homeCards/dayCard3.webp);
   }
   .dayDesc{
     width: 40%;
@@ -130,13 +130,13 @@
     transform:  scale(1.01);
   }
     .dayDesc1{
-        background-image: url(../Images/homeCards/dayDesc1.png);
+        background-image: url(../Images/homeCards/dayDesc1.webp);
     }
     .dayDesc2{
-        background-image: url(../Images/homeCards/dayDesc2.png);
+        background-image: url(../Images/homeCards/dayDesc2.webp);
     }
     .dayDesc3{
-        background-image: url(../Images/homeCards/dayDesc3.png);
+        background-image: url(../Images/homeCards/dayDesc3.webp);
     }
 
 

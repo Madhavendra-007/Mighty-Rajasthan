@@ -13,7 +13,7 @@
   .baseStamp{
     height: 350px;
     width: 350px;
-    background-image: url(../Images/preloader/baseStamp.svg);
+    background-image: url(../Images/preloader/baseStamp_850x852.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -27,7 +27,7 @@
   .compass{
     height: 61%;
     width: 61%;
-    background-image: url(../Images/preloader/compass2.svg);
+    background-image: url(../Images/preloader/compass2.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -43,7 +43,7 @@
         }
     }
   .text{
-    background-image: url(../Images/preloader/text.svg);
+    background-image: url(../Images/preloader/logoText_1_850x319.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position:  center 45%;

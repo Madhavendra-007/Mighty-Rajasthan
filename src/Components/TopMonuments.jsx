@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Styling/TopMonuments.css'
-import MonumentsAmer from '../Images/MonumentsAmer.png'
-import MonumentsJalMahal from '../Images/MonumentsJalMahal.png'
-import MonumentsHawaMahal from '../Images/MonumentsHawaMahal.jpg'
+import MonumentsAmer from '../Images/MonumentsAmer.webp'
+import MonumentsJalMahal from '../Images/MonumentsJalMahal.webp'
+import MonumentsHawaMahal from '../Images/MonumentsHawaMahal.webp'
 
 export default function TopMonuments() {
   const amerClick = () => {

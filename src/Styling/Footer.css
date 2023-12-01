@@ -50,7 +50,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background-image: url(../Images/momentousLogo.png);
+    background-image: url(../Images/momentousLogo.webp);
     background-size: 45%;   
     background-repeat: no-repeat;
     background-position: 10% center ;
@@ -69,11 +69,11 @@
     width: 40%;
 }
 .footerLogoMomentous{
-background-image: url(../Images/momentousLogo.png);
+background-image: url(../Images/momentousLogo.webp);
 
 }
 .footerLogoMightyRajasthan{
-background-image: url(../Images/rajasthanLogo.png);
+background-image: url(../Images/rajasthanLogo.webp);
 background-size:auto 80%;
 } */
 .LinksContainer h1{

@@ -8,7 +8,7 @@
     gap: 100px;
 }
 .contactFormHeading{
-    background-image: url(../Images/contactDetails.png);
+    background-image: url(../Images/contactDetails.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +115,7 @@ align-items: center;
     margin-bottom: 150px;
 }
 .getInTouchHeading{
-background-image: url(../Images/getInTouch.png);
+background-image: url(../Images/getInTouch.webp);
 
 }
 .socialsAlign{
@@ -143,10 +143,10 @@ background-image: url(../Images/getInTouch.png);
 
 }
 .socials1{
-    background-image: url(../Images/socials.whatsapp.png);
+    background-image: url(../Images/socials.whatsapp.webp);
 }
 .socials2{
-    background-image: url(../Images/socials.mail.png);
+    background-image: url(../Images/socials.mail.webp);
 }
 
 
