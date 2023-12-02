@@ -1,7 +1,7 @@
 import './App.css';
 import './Styling/Navbar.css';
 import './Styling/Footer.css';
-
+import Preloader from './Components/preloader';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Routes/Home';
@@ -22,6 +22,7 @@ function App() {
     <>
 
         <Router>
+        <Preloader /> {/* Add the Preloader component */}
           <ScrollToTop /> {/* This component will handle scrolling to the top */}
           <Navbar /> {/* Navbar */}
           <Routes>
