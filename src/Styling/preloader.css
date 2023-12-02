@@ -66,3 +66,13 @@
         transform: scale(1);
         }
     }
+
+
+    /* *************Responsive************* */
+
+    @media screen and (max-width:850px) {
+      .baseStamp{
+        height:35vw;
+        width: 35vw;
+      }
+    }

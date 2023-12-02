@@ -9,7 +9,7 @@ const Preloader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPreloader(false);
-    }, 5000); // Show preloader for at least 5 seconds
+    }, 3400); // Show preloader for at least 5 seconds
 
     return () => {
       clearTimeout(timer);
@@ -24,8 +24,7 @@ const Preloader = () => {
         <div className="text"></div>
       </div>
     </div>
-  ) 
-  : null;
+  ) : null;
 };
 
 export default Preloader;
