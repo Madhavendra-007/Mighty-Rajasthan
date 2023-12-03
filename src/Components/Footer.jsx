@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   const footerLogoClick = () => {
-    window.open("/About", "_blank");
+    window.open("/About", "_self");
   };
   return (
     <footer className='Footer'>
@@ -21,10 +21,10 @@ export default function Footer() {
           </div>
           <div className="LinksContainer">
             <h1>Our Policies</h1>
-            <a href="https://vinodjangid.me/Mighty-Rajasthan" className="FooterLinks">Privacy Policy</a>
+            <a href="/PrivacyPolicy" className="FooterLinks">Privacy Policy</a>
             <a href="https://vinodjangid.me/Mighty-Rajasthan" className="FooterLinks">Travel Policy</a>
             <a href="https://vinodjangid.me/Mighty-Rajasthan" className="FooterLinks">Refund Policy</a>
-            <a href="https://vinodjangid.me/Mighty-Rajasthan" className="FooterLinks">Cookie Policy</a>
+            <a href="/CookiePolicy" className="FooterLinks">Cookie Policy</a>
           </div>
 
 

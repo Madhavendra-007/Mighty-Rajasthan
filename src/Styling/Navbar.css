@@ -1,6 +1,6 @@
 /* Navbar Container Styling */
 .navbarContainer{
-    position: sticky;
+    position: fixed;
     top:0px;
     width: 100%;
     height: fit-content;

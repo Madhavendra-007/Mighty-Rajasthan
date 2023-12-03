@@ -118,6 +118,7 @@ const VideoPlayer = () => {
       >
         {muted ? <UnmuteIcon /> : <MuteIcon />}
       </button>
+      <div className="momentousBW"></div>
     </div>
   );
 };

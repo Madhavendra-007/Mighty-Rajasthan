@@ -1,12 +1,36 @@
 import React from 'react'
-import '../Styling/About.css'
+import '../Styling/documentation.css'
 export default function About() {
   return (
-    <div className='AboutMainContainer'>
-      <h1 className='AboutUsHeading sectionHeadings'>About Us</h1>
-      <p className="AboutPara">Welcome to Momentous Holidays! Embark on a captivating journey to the heart of Rajasthan, where valorous history, opulent palaces, and kaleidoscopic traditions await. We take immense pride in being your companions as you traverse the sands of time, discovering the hidden gems of this land of royalty. Our story began with a fervent desire to share the magic of Rajasthan's tourism with the world, and as we tread on this path, our horizons are set on encompassing the entire tapestry of India's beauty.At Momentous Holidays, we don't just offer tours; we craft immersive experiences that linger in your memory for a lifetime. Our team of passionate travel enthusiasts and local experts work tirelessly to curate itineraries that delve deep into the essence of each destination. From the bustling bazaars of Jaipur to the tranquil lakes of Udaipur, every moment is a celebration of India's diversity.<br /> <br /> <br />As we evolve, our vision extends beyond Rajasthan's borders. We aspire to be at the forefront of redefining travel across the Indian subcontinent. Our commitment to sustainable and responsible tourism drives us to create meaningful connections between travelers and the communities they visit. With Momentous Holidays, you're not just a spectator; you're a participant in a journey that supports local livelihoods and preserves India's natural and cultural heritage.Join us as we script stories of exploration, weave bonds with diverse cultures, and paint memories with the vibrant colors of India. Whether you're a history aficionado, a culinary explorer, a nature lover, or a seeker of spiritual enlightenment, there's a momentous adventure that awaits you. Your voyage of a thousand miles begins with a single click — let Momentous Holidays be your compass to navigating the extraordinary tapestry of India.
-      <br /><br /><br />
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim ipsum reiciendis eveniet dolorum perspiciatis excepturi cum alias debitis totam, ratione nam deserunt, nostrum recusandae esse a, quas et molestias hic laboriosam animi obcaecati! Ad porro totam ducimus voluptas enim cupiditate, corrupti libero natus aperiam odit reprehenderit cumque quos nesciunt quam magni, fugit aliquam ex nam. Ad, et. Sint fuga velit dolor earum totam numquam voluptate repellat natus adipisci aperiam perspiciatis voluptatem, esse doloremque exercitationem fugiat ipsum! Velit similique, dolor, fugit possimus est officia porro voluptate ex quod cum, iusto maxime. Ad cupiditate alias odio modi consequatur, corporis illum eveniet, culpa deleniti magni rem labore incidunt illo unde, sit omnis quia nisi esse error! Laboriosam, a facere placeat tenetur officiis reiciendis eius consequuntur voluptatem. Pariatur, adipisci nulla maiores eaque necessitatibus vitae quae fuga labore ut. Officiis obcaecati tenetur cum illum nihil itaque repellat autem deserunt tempore sed libero reiciendis vero illo, quisquam voluptate neque error dolore ducimus aspernatur qui dolor perspiciatis. Maiores, assumenda earum delectus consequuntur est accusamus molestiae temporibus ad, veniam sit ullam, tenetur magnam odio dolore dolorum distinctio corrupti error inventore aut dolor et eligendi neque pariatur sapiente. Accusamus aliquid dolorem, eum cumque optio impedit, dolor quod quibusdam voluptate, suscipit saepe eaque. Voluptatibus itaque accusantium eaque doloribus iure, sit dolorum eos vel provident praesentium beatae! Tempora sunt cumque dolore qui provident soluta labore quisquam consequuntur voluptatum perspiciatis, error non ducimus quae aliquid fuga tempore temporibus recusandae quaerat quod id earum! Necessitatibus nulla sint reiciendis provident itaque magni. Vel vero explicabo maiores aut voluptatem assumenda similique minus voluptates laboriosam consectetur quidem, ratione beatae, deleniti quas, facere corporis incidunt repudiandae praesentium tenetur. Quae natus fugiat accusamus odit qui. Maxime autem itaque inventore? Cupiditate deleniti asperiores dolor corrupti unde dicta, atque vel, omnis corporis possimus ullam! Eaque voluptas consequuntur saepe non itaque.</p>
+    <div className='documentaionContainer'>
+      <p className="documentationText">
+      <h1 className=' documentationHeading'>Momentous Holidays</h1>
+      <h3 className='subheading'>Our Journey, Your Adventure</h3>
+      At Momentous Holidays, our story is deeply rooted in a passion for travel and a wealth of experience. Founded by a seasoned tourist guide with over two decades of expertise, we are a family-owned company committed to redefining premium travel experiences.
+
+<br /> <br /> 
+<h2>Our Founder's Vision</h2> 
+The driving force behind Momentous Holidays is our founder, a distinguished tourist guide with a national-level permit in India for more than 20 years. Having collaborated with various esteemed companies and catered to high-profile clients, he brings a wealth of knowledge and a fervent desire to curate unparalleled travel experiences. His dream is to share the richness of India through Momentous Holidays, where every journey is unique and authentically tailored.
+<br /><br />
+<h2>Our Mission</h2>
+At Momentous Holidays, our mission is clear – to offer a premium, authentic, and uniquely individualized experience. We understand the value of hard-earned money, and our commitment is to ensure that every moment of your trip is worth every penny spent. We prioritize quality, personalization, and a seamless blend of luxury and authenticity.
+<br /><br />
+<h2>Personalized Approach</h2>
+Our founder, a seasoned guide fluent in English & French, personally oversees customer interactions. His passion for this venture ensures a warm, engaging, and attentive approach. With a circle intimately acquainted with every corner of Jaipur, our focus is on crafting a flexible yet immersive experience in the heart of Rajasthan.
+<br /><br />
+<h2>Community Engagement</h2>
+We believe in more than tourism; we believe in cultural exchange. Through community engagement at every step of your journey, we offer a deeper understanding of Rajasthani culture and the warmth of Indian hospitality.
+<br /><br />
+<h2>Building Tomorrow</h2>
+While our online presence is evolving, our founder's freelance experience with premium clients is a testament to our commitment to excellence. We plan to extend our horizons, offering more extensive tour plans across India in the near future.
+<br /><br />
+<h2>Individualism Redefined</h2>
+What sets us apart is our individualistic approach. Unlike the robotic offerings of other organizations, our focus is on crafting experiences that resonate uniquely with each traveler. Your journey is not just a trip; it's a personalized adventure with Momentous Holidays.
+<br /><br />
+<h3>Join us as we redefine travel, one remarkable journey at a time.
+</h3>
+
+      </p>
     </div>
   )
 }
