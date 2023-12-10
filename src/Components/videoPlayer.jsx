@@ -56,7 +56,7 @@ const VideoPlayer = () => {
                 heading.style.flexDirection='column';
                 heading.style.textShadow = '2px 2px 4px #000000';
                 heading.style.width='100%';
-                heading.style.opacity='0.6';
+                heading.style.opacity='0.7';
                 heading.style.textTransform='uppercase';
                 heading.firstChild.style.fontSize='8rem';
                 heading.firstChild.style.marginBottom='0.5rem';
