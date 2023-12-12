@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f401a94.css",
-    "main.js": "/static/js/main.7abb73ab.js",
+    "main.css": "/static/css/main.18cbcb4e.css",
+    "main.js": "/static/js/main.71e91dab.js",
     "static/js/787.6fc87f35.chunk.js": "/static/js/787.6fc87f35.chunk.js",
     "static/media/RajasthanVideoDesktop.webm": "/static/media/RajasthanVideoDesktop.65c6f542f2e452477598.webm",
     "static/media/RajasthanVideoTablet.webm": "/static/media/RajasthanVideoTablet.3f15232562ab83f0f54e.webm",
@@ -42,9 +42,11 @@
     "static/media/day2HeritageAndNighttimeWonders.webp": "/static/media/day2HeritageAndNighttimeWonders.bde87b9eafd8fb5f1208.webp",
     "static/media/wooden&metalArtifacts.webp": "/static/media/wooden&metalArtifacts.64505e5da74d123bad1c.webp",
     "static/media/day1DiscoveringJaipursEssence.webp": "/static/media/day1DiscoveringJaipursEssence.b089356831e98d6a6c13.webp",
+    "static/media/text_50.webp": "/static/media/text_50.da227578e95cb394a8a6.webp",
     "static/media/day3CountrySideExploration.webp": "/static/media/day3CountrySideExploration.76981746e5adcc1d6c75.webp",
     "static/media/day3ShoppingExtravagenza.webp": "/static/media/day3ShoppingExtravagenza.be44215b1f7682e4b1bd.webp",
     "static/media/bg7.webp": "/static/media/bg7.512ccef1398bf7d4942c.webp",
+    "static/media/baseStamp_850x852.webp": "/static/media/baseStamp_850x852.43e2bd377334cd4d7aee.webp",
     "static/media/BlockPrintingDesc.webp": "/static/media/BlockPrintingDesc.b5b5479e8c479cb1dbf9.webp",
     "static/media/marbleSculptureDesc.webp": "/static/media/marbleSculptureDesc.d69f60954cf8b4870147.webp",
     "static/media/woden&metaArtifactsDesc.webp": "/static/media/woden&metaArtifactsDesc.4b6ef4c794a5a5e53751.webp",
@@ -68,6 +70,7 @@
     "static/media/dayDesc2.webp": "/static/media/dayDesc2.a9a70eb9498d661abc9a.webp",
     "static/media/luxuryStayDesc.webp": "/static/media/luxuryStayDesc.9bde3f3111d09e561abd.webp",
     "static/media/streetFoodDesc.webp": "/static/media/streetFoodDesc.8fa7b917a1a749508524.webp",
+    "static/media/compass2.webp": "/static/media/compass2.495e2da38304c4fedc01.webp",
     "static/media/introDesc.webp": "/static/media/introDesc.e5a106579c16e45a1f6c.webp",
     "static/media/restDesc.webp": "/static/media/restDesc.4d384a6a691a1269d39d.webp",
     "static/media/Gems&JewelleryDesc.webp": "/static/media/Gems&JewelleryDesc.d13d09b37ac24f043b44.webp",
@@ -85,12 +88,12 @@
     "index.html": "/index.html",
     "static/media/Unmute.svg": "/static/media/Unmute.33e2dbe8894df72d79e3c6b8e793f364.svg",
     "static/media/Mute.svg": "/static/media/Mute.976d35ca4631404b0ef651d5a7281e31.svg",
-    "main.4f401a94.css.map": "/static/css/main.4f401a94.css.map",
-    "main.7abb73ab.js.map": "/static/js/main.7abb73ab.js.map",
+    "main.18cbcb4e.css.map": "/static/css/main.18cbcb4e.css.map",
+    "main.71e91dab.js.map": "/static/js/main.71e91dab.js.map",
     "787.6fc87f35.chunk.js.map": "/static/js/787.6fc87f35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f401a94.css",
-    "static/js/main.7abb73ab.js"
+    "static/css/main.18cbcb4e.css",
+    "static/js/main.71e91dab.js"
   ]
 }
