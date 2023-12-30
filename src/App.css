@@ -28,6 +28,7 @@ html {
 }
 body{
   overflow-x: hidden;
+  background-color: #fff;
 }
 .sliderContainer{
 width: 100%;
