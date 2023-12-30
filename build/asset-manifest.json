@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.18cbcb4e.css",
-    "main.js": "/static/js/main.71e91dab.js",
+    "main.js": "/static/js/main.0fbbdd4e.js",
     "static/js/787.6fc87f35.chunk.js": "/static/js/787.6fc87f35.chunk.js",
     "static/media/RajasthanVideoDesktop.webm": "/static/media/RajasthanVideoDesktop.65c6f542f2e452477598.webm",
     "static/media/RajasthanVideoTablet.webm": "/static/media/RajasthanVideoTablet.3f15232562ab83f0f54e.webm",
@@ -89,11 +89,11 @@
     "static/media/Unmute.svg": "/static/media/Unmute.33e2dbe8894df72d79e3c6b8e793f364.svg",
     "static/media/Mute.svg": "/static/media/Mute.976d35ca4631404b0ef651d5a7281e31.svg",
     "main.18cbcb4e.css.map": "/static/css/main.18cbcb4e.css.map",
-    "main.71e91dab.js.map": "/static/js/main.71e91dab.js.map",
+    "main.0fbbdd4e.js.map": "/static/js/main.0fbbdd4e.js.map",
     "787.6fc87f35.chunk.js.map": "/static/js/787.6fc87f35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18cbcb4e.css",
-    "static/js/main.71e91dab.js"
+    "static/js/main.0fbbdd4e.js"
   ]
 }
